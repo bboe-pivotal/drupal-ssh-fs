@@ -1,0 +1,10 @@
+---
+applications:
+  - name: drupal 
+    instances: 1
+    memory: 256m
+    host: drupal-${random-word}
+    path: drupal-7.38
+    services:
+      - drupal-db
+      - drupal-fs

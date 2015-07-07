@@ -1,0 +1,6 @@
+{
+    "PHP_EXTENSIONS": [ "bz2", "zlib", "curl", "mcrypt", "gd", "memcache", "ldap" , "pdo_mysql", "pdo", "mbstring", "sockets" ],
+    "HTTPD_VERSION": "2.4.12",
+    "PHP_VERSION": "5.4.27",
+    "PHP_MODULES": ["pear"]
+}
