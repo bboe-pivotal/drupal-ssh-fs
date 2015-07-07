@@ -5,3 +5,5 @@ The following customizations have been made to Drupal in order for it to run on 
 * [.bp-config folder](drupal-7.38/.bp-config) for configuring the PHP buildpack.
 * [settings.php](drupal-7.38/sites/default/settings.php) for making Drupal connect to connect to MySQL provided by Cloud Foundry.
 * [mount.sh](drupal-7.38/.profile.d/mount.sh) for customizing folder structure for SSH-FS and setting up a temp directory.
+
+After deploying the application, run install.php to initialize your installation of Drupal.
